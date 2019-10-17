@@ -3,9 +3,11 @@
 $(function () {
 //$("#btSerch").click(function(){
 $("#btSerch").on( "click", function(){
-	//社員一覧テーブルの表示内容を初期化
+	//初期化
 	$("#employeeVal").html("");
-
+	$('#employeeVal' ) .html("");
+	
+	
 	//検索項目の値を取得
 	//検索ワードを取得
 	var target = $('.division_list option:selected').val();
