@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employeeList>
+	<staff>
+		<id>A0001</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>竹村 良三</name>
+	</staff>
+	<staff>
+		<id>B0531</id>
+		<department>経理部</department>
+		<status>社員</status>
+		<name>勝又 可憐</name>
+	</staff>
+	<staff>
+		<id>A5487</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>手島 友里</name>
+	</staff>	
+	<staff>
+		<id>C9534</id>
+		<department>商品開発部</department>
+		<status>社員</status>
+		<name>喜多 正明</name>
+	</staff>	
+	<staff>
+		<id>C9314</id>
+		<department>商品開発部</department>
+		<status>チームリーダー</status>
+		<name>桜田 典子</name>
+	</staff>	
+	<staff>
+		<id>A0900</id>
+		<department>営業部</department>
+		<status>チームリーダー</status>
+		<name>新村 利明</name>
+	</staff>	
+	<staff>
+		<id>B9314</id>
+		<department>経理部</department>
+		<status>社員</status>
+		<name>石沢 健次郎</name>
+	</staff>	
+	<staff>
+		<id>A7045</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>大坪 修一</name>
+	</staff>	
+	<staff>
+		<id>C6056</id>
+		<department>商品開発部</department>
+		<status>社員</status>
+		<name>金山 夏実</name>
+	</staff>	
+	<staff>
+		<id>A7710</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>堀井 義隆</name>
+	</staff>	
+	<staff>
+		<id>B8701</id>
+		<department>経理部</department>
+		<status>チームリーダー</status>
+		<name>郡司 豊樹</name>
+	</staff>
+	<staff>
+		<id>A8001</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>矢沢 定夫</name>
+	</staff>
+	<staff>
+		<id>C0124</id>
+		<department>商品開発部</department>
+		<status>派遣</status>
+		<name>中里 登美子</name>
+	</staff>
+	<staff>
+		<id>A9441</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>石沢 健次郎</name>
+	</staff>
+	<staff>
+		<id></id>
+		<department></department>
+		<status></status>
+		<name></name>
+	</staff>
+	<staff>
+		<id>B02463</id>
+		<department>経理部</department>
+		<status>社員</status>
+		<name>矢沢 定夫</name>
+	</staff>
+	<staff>
+		<id>C6410</id>
+		<department>商品開発部</department>
+		<status>派遣</status>
+		<name>中沢 義孝</name>
+	</staff>
+	<staff>
+		<id>A5071</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>池上 優香</name>
+	</staff>
+	<staff>
+		<id>A4086</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>大槻 碧</name>
+	</staff>
+	<staff>
+		<id>A1901</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>根本 澪</name>
+	</staff>
+	<staff>
+		<id>C3214</id>
+		<department>商品開発部</department>
+		<status>社員</status>
+		<name>阿部 絵理</name>
+	</staff>
+	<staff>
+		<id>B0048</id>
+		<department>経理部</department>
+		<status>社員</status>
+		<name>花岡 公子</name>
+	</staff>
+	<staff>
+		<id>A3048</id>
+		<department>営業部</department>
+		<status>社員</status>
+		<name>坂口 正一</name>
+	</staff>
+	<staff>
+		<id>C0064</id>
+		<department>商品開発部</department>
+		<status>社員</status>
+		<name>新村 利明</name>
+	</staff>
+</employeeList>

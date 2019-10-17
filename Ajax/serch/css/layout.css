@@ -1,0 +1,8 @@
+
+/*テーブル全体の設定*/
+.employeeTable {
+  width: 600px;
+  border-collapse:separate;
+  border-spacing: 0;
+  border: 1px;
+}
