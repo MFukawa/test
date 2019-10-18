@@ -1,23 +1,66 @@
 <!DOCTYPE html>
 <html>
-<title>Ajax Work</title>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/sample.css" />
-	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="js/main.js" charset="UTF-8" charset="utf-8"></script>
-</head>
-<body>
-	<p>Hello World</p>
-
-	<div id="jquery-sample">
-	    <p>
-	        <button id="jquery-sample-button">toggle</button>
-	        <span id="jquery-sample-textStatus"></span>
-	    </p>
-	    <!--以下のDIVに値が表示される-->
-	    <div id="jquery-sample-ajax"></div>
-	</div>
+	<title>Ajax Work</title>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<!-- jQueryをインポートする-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery/jquery-3.4.1.min.js" charset="UTF-8" charset="utf-8"></script>
+		<script type="text/javascript" src="js/main.js" charset="UTF-8" charset="utf-8"></script>
+	</head>
 	
-</body>
+	<body>
+
+		<p>Wellcom to AjaxWorld</p>
+
+		<div id="serchErea">
+		<span>検索</span>
+			<table class="search-table">
+			<tr>
+				<th>部署選択</th>
+				<td>
+					<select class="division_list">
+						<option value="" selected></option>
+						<option value="営業部">営業部</option>
+						<option value="経理部">経理部</option>
+						<option value="商品開発部">商品開発部</option>
+					</select>
+				</td>
+				<td>
+					<input type="button" id="btSerch" value="検索">
+					<!--<button id="btSerch">検索</button> -->
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<!-- 通信結果表示-->
+					<span id="ajaxStatus"></span>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+		<!-- メッセージ出力 -->
+		<div>
+			<span id="atencionMsg"></span>
+		</div>
+		
+		<!-- 社員一覧テーブル情報出力 -->
+		<div>
+			<table class="employeeTable">
+				<thead>
+					<tr>
+					<th>社員番号</th>
+					<th>社員ステータス</th>
+					<th>社員名</th>
+					</tr>
+				</thead>
+				<!-- XMLファイルから値を取得する -->
+				<tbody id="employeeVal">
+				</tbody>
+			</table>
+		</div>
+
+	</body>
 </html>

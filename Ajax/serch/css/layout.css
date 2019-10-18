@@ -1,0 +1,17 @@
+
+/*Ğˆõˆê——ƒe[ƒuƒ‹*/
+.employeeTable {
+  width: 600px;
+  border-collapse:separate;
+  border-spacing: 0;
+  border: 1px;
+}
+
+table.emploeeTable thead {
+  background-color: #cdefff;
+}
+
+table.emploeeTable th{
+  background-color: #00e2cf;
+}
+
