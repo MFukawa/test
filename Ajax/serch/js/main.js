@@ -47,10 +47,10 @@ $(function(){
 //</status>
 //<history>
 //	url: 読込対象のXMLファイルの設置場所
-//	type: 
-//	dataType:
-//	timeout:
-//	success:
+//	type: [post] or [get]のどちらか。初期値はget。
+//	dataType:XMLドキュメント
+//	timeout:タイムアウト時間設定。設定時間を過ぎるとエラーになる。
+//	success:通信成功時に呼び出されるイベント
 //</history>
 //*************************************************
 function ajaxRun(){
