@@ -1,0 +1,21 @@
+
+GitBaschは初期表示時から文字化けするらしい。
+なので、対策。
+
+コマンド入力したり、バッチファイル登録させたりと色々方法があるが、
+めんどくさいので、GitBaschの設定から日本語を使えるようにする。
+
+【手順】
+1.GitBasch画面で左クリック
+
+2.メニューから[Option]を選択
+
+3.左側メニューの[Text]選択
+
+4.画面下にある[Locale]と[Character set]の値を変更
+　　Location：ja_JP　を選択
+　　Character set: UTF-8　を選択
+
+5.GitBashを再起動
+
+以上。
