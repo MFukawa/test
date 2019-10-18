@@ -1,0 +1,68 @@
+
+パスフレーズ...あったらセキュリティ的にありがたい。
+でも、いちいち入力を要求してくる。
+それは面倒くさいって方のためのメモ。
+
+configを書き換えます。
+
+【手順】
+
+1.GitBach起動
+
+2.以下のコマンドを入力
+ vi ~/.bashrc
+ 
+
+3.INSERTモードにして、以下の3行を入力	i
+ #ssh-agent
+ eval `ssh-agent`
+ ssh-add
+
+4.上書きしてviモードを終了	:wq
+
+5.GitBachを再起動
+
+手順は以上です。
+今後、GitBachを起動するたびに、最初の1回だけ入力を求められますが
+pushしてもssh接続確認してもパスフレーズの入力を求められなくなります。
+
+それでもめんどくさい場合、3の手順を行う際に以下を入力してください。
+(1回起動したssh-agentを別のセッションでも共用できる設定だそうです)
+
+
+# test for identities
+function test_identities {
+    # test whether standard identities have been added to the agent already
+    ssh-add -l | grep "The agent has no identities" > /dev/null
+    if [ $? -eq 0 ]; then
+    ssh-add
+    # $SSH_AUTH_SOCK broken so we start a new proper agent
+        if [ $? -eq 2 ];then
+            start_agent
+        fi
+    fi
+}
+
+# check for running ssh-agent with proper $SSH_AGENT_PID
+if [ -n "$SSH_AGENT_PID" ]; then
+    ps -ef | grep "$SSH_AGENT_PID" | grep ssh-agent > /dev/null
+    if [ $? -eq 0 ]; then
+    test_identities
+    fi
+# if $SSH_AGENT_PID is not properly set, we might be able to load one from
+# $SSH_ENV
+else
+    if [ -f "$SSH_ENV" ]; then
+    . "$SSH_ENV" > /dev/null
+    fi
+    ps -ef | grep "$SSH_AGENT_PID" | grep -v grep | grep ssh-agent > /dev/null
+    if [ $? -eq 0 ]; then
+        test_identities
+    else
+        start_agent
+    fi
+fi
+
+
+便利だけど、便利すぎてパスフレーズを忘れてしまう可能性もあるので
+パスフレーズは個別にファイルに残しておいたほうが安全ですね。
