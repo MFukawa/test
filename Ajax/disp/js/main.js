@@ -4,7 +4,7 @@ $(function() {
 			//以下からAjax(非同期通信)の処理
 			$.ajax({
 				//URL指定
-				url: 'file:///C:/work_fukawa/tool/Git/Git/test/Ajax/xml/sample.xml',
+				url: 'file:///C:/work_fukawa/tool/Git/Git/test/Ajax/disp/xml/sample.xml',
 				//データタイプを指定。今回はxmlに指定されている文字を画面に出力するので「xml」
 				dataType: 'xml',
 

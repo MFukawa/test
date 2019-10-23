@@ -30,7 +30,7 @@ $(function(){
 
  	}else{										//検索キーワードがブランクでない場合
 		//メッセージが表示されているかもしれないので、非表示にする
-		$('#atencionMsg').hide();
+		//$('#atencionMsg').hide();
 		
 		//Ajax通信を行う
 		ajaxRun();
