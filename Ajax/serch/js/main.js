@@ -22,6 +22,9 @@ $(function(){
  	//検索キーワードを取得して、ローカル変数に設定
  	serchKey = $('.division_list option:selected').val();
  	
+ 	//ファイルの種別を取得
+ 	var file = $('.file_list option:selected').val();
+ 	
  	//検索キーワードの値により条件分岐
  	if(serchKey == ""){							//検索キーワードがブランクの場合
 		//検索結果を赤文字で画面に表示
@@ -33,7 +36,7 @@ $(function(){
 		//$('#atencionMsg').hide();
 		
 		//Ajax通信を行う
-		ajaxRun();
+		ajaxRun(file);
  	
  	}	//if文 End
  })		//検索ボタン処理 End
@@ -53,9 +56,12 @@ $(function(){
 //	success:通信成功時に呼び出されるイベント
 //</history>
 //*************************************************
-function ajaxRun(){
+function ajaxRun(file){
+	//url成形
+	var urlLink = file + '/emploee.' + file
+	
 	$.ajax({
-		url: 'xml/emploee.xml',
+		url: urlLink,
 		type:'get',
 		dataType:'xml',
 		timeout:1000,
