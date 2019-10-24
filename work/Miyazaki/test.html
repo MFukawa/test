@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="test.css">
+		<title>test</title>
+	</head>
+	<body>
+		<h1>メニュー</h1>
+		<p>検索</p>
+		<p>料理選択
+		<select id="menu">
+			<xsl:for-each select="//dish">
+			<option value="{@name}">
+			</option>
+			</xsl:for-each>
+		</select>
+		<table>
+			<tbody>
+			<tr>
+				<th>ジャンル</th>
+				<th>種類</th>
+				<th>料理名</th>
+				<th>価格</th>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+		</tbody>
+		</table>
+
+	</body>
+	<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+</html>
+
+
+
+
