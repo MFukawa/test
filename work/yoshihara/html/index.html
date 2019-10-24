@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<title>search</title>
+</head>
+<body>
+	<h1>SEARCH EMPLOYEE</h1>
+	<div>検索部署:
+		<select id="dep_list">
+			<option value="-1">【部署を選択】</option>
+		</select>
+	<button type="button" id="searchButton">検索</button>
+	</div><br>
+	<div id="info"> </div><br>
+	<table>
+		<tr>
+			<th id="empId">id</th>
+			<th id="empStat">社員ステータス</th>
+			<th id="empName">社員名</th>
+		</tr>
+		<tbody id="empTable"></tbody>
+	</table>
+
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/jsFile.js"></script>
+</body>
+</html>

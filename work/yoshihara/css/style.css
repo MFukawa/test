@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+body{
+	background-color:black;
+	color:white;
+	font-family:monospace, serif;
+}
+
+h1{
+	color:yellow;
+}
+#info{
+	height:16px;
+	padding-left:10px;
+}
+
+table{
+	border:1px gray solid;
+}
+th{
+	color:black;
+	background-color:darkgray;
+}
+#empId{
+	width:65px;
+}
+#empStat{
+	width:125px;
+}
+#empName{
+	width:95px;
+}
