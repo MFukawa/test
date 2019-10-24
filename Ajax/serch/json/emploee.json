@@ -1,146 +1,148 @@
+{
+"employeeList":[
 	{
-		"id": "A0001",
-		"department": "営業部",
-		"status": "社員",
-		"name": "竹村 良三"
+		"id":"A0001",
+		"department":"営業部",
+		"status":"社員",
+		"name":"竹村 良三"
 	},
 	{
-		"id": "B0531",
-		"department": "経理部",
-		"status": "社員",
-		"name": "勝又 可憐"
+		"id":"B0531",
+		"department":"経理部",
+		"status":"社員",
+		"name":"勝又 可憐"
 	},
 	{
-		"id": "A5487",
-		"department": "営業部",
-		"status": "社員",
-		"name": "手島 友里"
+		"id":"A5487",
+		"department":"営業部",
+		"status":"社員",
+		"name":"手島 友里"
 	},	
 	{
-		"id": "C9534",
-		"department": "商品開発部",
-		"status": "社員",
-		"name": "喜多 正明"
+		"id":"C9534",
+		"department":"商品開発部",
+		"status":"社員",
+		"name":"喜多 正明"
 	},	
 	{
-		"id": "C9314",
-		"department": "商品開発部",
-		"status": "チームリーダー",
-		"name": "桜田 典子"
+		"id":"C9314",
+		"department":"商品開発部",
+		"status":"チームリーダー",
+		"name":"桜田 典子"
 	},	
 	{
-		"id": "A0900",
-		"department": "営業部",
-		"status": "チームリーダー",
-		"name": "新村 利明"
+		"id":"A0900",
+		"department":"営業部",
+		"status":"チームリーダー",
+		"name":"新村 利明"
 	},	
 	{
-		"id": "B9314",
-		"department": "経理部",
-		"status": "社員",
-		"name": "石沢 健次郎"
+		"id":"B9314",
+		"department":"経理部",
+		"status":"社員",
+		"name":"石沢 健次郎"
 	},	
 	{
-		"id": "A7045",
-		"department": "営業部",
-		"status": "社員",
-		"name": "大坪 修一"
+		"id":"A7045",
+		"department":"営業部",
+		"status":"社員",
+		"name":"大坪 修一"
 	},	
 	{
-		"id": "C6056",
-		"department": "商品開発部",
-		"status": "社員",
-		"name": "金山 夏実"
+		"id":"C6056",
+		"department":"商品開発部",
+		"status":"社員",
+		"name":"金山 夏実"
 	},	
 	{
-		"id": "A7710",
-		"department": "営業部",
-		"status": "社員",
-		"name": "堀井 義隆"
+		"id":"A7710",
+		"department":"営業部",
+		"status":"社員",
+		"name":"堀井 義隆"
 	},	
 	{
-		"id": "B8701",
-		"department": "経理部",
-		"status": "チームリーダー",
-		"name": "郡司 豊樹"
+		"id":"B8701",
+		"department":"経理部",
+		"status":"チームリーダー",
+		"name":"郡司 豊樹"
 	},
 	{
-		"id": "A8001",
-		"department": "営業部",
-		"status": "社員",
-		"name": "矢沢 定夫"
+		"id":"A8001",
+		"department":"営業部",
+		"status":"社員",
+		"name":"矢沢 定夫"
 	},
 	{
-		"id": "C0124",
-		"department": "商品開発部",
-		"status": "派遣",
-		"name": "中里 登美子"
+		"id":"C0124",
+		"department":"商品開発部",
+		"status":"派遣",
+		"name":"中里 登美子"
 	},
 	{
-		"id": "A9441",
-		"department": "営業部",
-		"status": "社員",
-		"name": "石沢 健次郎"
+		"id":"A9441",
+		"department":"営業部",
+		"status":"社員",
+		"name":"石沢 健次郎"
 	},
 	{
-		"id": "",
-		"department": "",
-		"status": "",
-		"name": ""
+		"id":"",
+		"department":"",
+		"status":"",
+		"name":""
 	},
 	{
-		"id": "B02463",
-		"department": "経理部",
-		"status": "社員",
-		"name": "矢沢 定夫"
+		"id":"B02463",
+		"department":"経理部",
+		"status":"社員",
+		"name":"矢沢 定夫"
 	},
 	{
-		"id": "C6410",
-		"department": "商品開発部",
-		"status": "派遣",
-		"name": "中沢 義孝"
+		"id":"C6410",
+		"department":"商品開発部",
+		"status":"派遣",
+		"name":"中沢 義孝"
 	},
 	{
-		"id": "A5071",
-		"department": "営業部",
-		"status": "社員",
-		"name": "池上 優香"
+		"id":"A5071",
+		"department":"営業部",
+		"status":"社員",
+		"name":"池上 優香"
 	},
 	{
-		"id": "A4086",
-		"department": "営業部",
-		"status": "社員",
-		"name": "大槻 碧"
+		"id":"A4086",
+		"department":"営業部",
+		"status":"社員",
+		"name":"大槻 碧"
 	},
 	{
-		"id": "A1901",
-		"department": "営業部",
-		"status": "社員",
-		"name": "根本 澪"
+		"id":"A1901",
+		"department":"営業部",
+		"status":"社員",
+		"name":"根本 澪"
 	},
 	{
-		"id": "C3214",
-		"department": "商品開発部",
-		"status": "社員",
-		"name": "阿部 絵理"
+		"id":"C3214",
+		"department":"商品開発部",
+		"status":"社員",
+		"name":"阿部 絵理"
 	},
 	{
-		"id": "B0048",
-		"department": "経理部",
-		"status": "社員",
-		"name": "花岡 公子"
+		"id":"B0048",
+		"department":"経理部",
+		"status":"社員",
+		"name":"花岡 公子"
 	},
 	{
-		"id": "A3048",
-		"department": "営業部",
-		"status": "社員",
-		"name": "坂口 正一"
+		"id":"A3048",
+		"department":"営業部",
+		"status":"社員",
+		"name":"坂口 正一"
 	},
 	{
-		"id": "C0064",
-		"department": "商品開発部",
-		"status": "社員",
-		"name": "新村 利明"
+		"id":"C0064",
+		"department":"商品開発部",
+		"status":"社員",
+		"name":"新村 利明"
 	}
-
-
+]
+}
