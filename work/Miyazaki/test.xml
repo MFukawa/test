@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<dishes>
+	<dish>
+		<genre>和食</genre>		
+	<type>麺類</type>
+	<menu>そば</menu>
+	<price>540円</price>
+</dish>
+<dish>
+	<genre>和食</genre>
+	<type>魚料理</type>
+	<menu>海鮮丼</menu>
+	<price>1250円</price>
+</dish>
+<dish>
+	<genre>和食</genre>
+	<type>肉料理</type>
+	<menu>生姜焼き</menu>
+	<price>850円</price>
+</dish>
+<dish>
+	<genre>洋食</genre>
+	<type>麺類</type>
+	<menu>ミートスパゲッティ</menu>
+	<price>895円</price>
+</dish>
+<dish>
+	<genre>中華料理</genre>
+	<type>麺類</type>
+	<menu>酸辣湯麵</menu>
+	<price>780円</price>
+</dish>
+</dishes>
+
+<genres>
+	<genre name="和食"/>
+	<genre name="洋食"/>
+	<genre name="中華料理"/>
+</genres>
+
