@@ -1,5 +1,5 @@
 {
-	"employeeList": [
+	"empInfoList": [
 		{
 			"id": "A0001",
 			"department": "営業部",
@@ -89,12 +89,6 @@
 			"department": "",
 			"status": "",
 			"name": ""
-		},
-		{
-			"id": "B02463",
-			"department": "経理部",
-			"status": "社員",
-			"name": "矢沢 定夫"
 		},
 		{
 			"id": "C6410",

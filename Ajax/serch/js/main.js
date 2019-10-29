@@ -102,7 +102,7 @@ function getData(data,status){
 			$(data).find('staff').each(createDispXml);
 		}else{
 
-			$(data.employeeList).each(createDispJson);
+			$(data.empInfoList).each(createDispJson);
 		}
 
 		
