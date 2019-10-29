@@ -91,12 +91,6 @@
 		<name></name>
 	</staff>
 	<staff>
-		<id>B02463</id>
-		<department>経理部</department>
-		<status>社員</status>
-		<name>矢沢 定夫</name>
-	</staff>
-	<staff>
 		<id>C6410</id>
 		<department>商品開発部</department>
 		<status>派遣</status>
